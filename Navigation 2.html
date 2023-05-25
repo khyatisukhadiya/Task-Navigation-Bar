@@ -6,14 +6,17 @@
     <style>
         body {
             background-color: rgb(236, 238, 242);
-
+            /* font-size: 17px; */
+            font-family:Verdana, serif;
         }
 
         nav {
             border: 1px solid white;
             background-color: white;
             padding: 0px;
-            margin: 20px 50px;
+            margin: 10px 20px;
+            /* margin-bottom: 10px; */
+        
         }
 
         ul {
@@ -25,7 +28,7 @@
         }
 
         li {
-            padding: 5px 10px;
+            padding: 10px 14px;
             float: right;
 
         }
@@ -37,19 +40,21 @@
 
         }
 
-        /* .button {
-                border: 1px solid ;
-                border-radius: 50px;
-                padding: 3px 30px;
-                margin-top: -4px;
-            }  */
-        .serach {
-            border: none;
-            outline: none;
-            border-radius: 400px;
-            padding: 3px 50px;
-            margin-top: -3px;
-        }
+           input[type=text] {
+                  
+                   box-sizing: border-box;
+                   border: 2px solid;
+                   border-radius: 40px;
+                   background-color: white; 
+                   background: url('./search_FILL0_wght400_GRAD0_opsz48.png');
+                   background-size: 25px;
+                   margin-top: -7px;
+                   background-position: 150px 2px; 
+                   background-repeat: no-repeat;
+                   padding: 10px 35px;
+                   font-size: 10px;
+                  
+            }
     </style>
 </head>
 
@@ -57,24 +62,18 @@
     <nav>
 
         <ul>
-
-            <img src="./jhf.png" alt="logo" width="100px" height="28px">
-            <li>
-                <div class="search">
+            <img src="./jhf.png" alt="logo" width="160px" height="40px">
+            <li >
                     <input type="text" placeholder="i'm searching for...">
-                </div>
             </li>
-            <li><a href=""><b>CONTANCTS</b></a></li>
-            <li><a href=""><b>ABOUTUS</b></a></li>
-            <li><a href=""><b>PRODUCTS</b></a></li>
-            <li><a href=""><b>HOME</b></a></li>
-
-
-
-
-        </ul>
+            <li><a href="">CONTANCTS</a></li>
+            <li><a href="">ABOUTUS</a></li>
+            <li><a href="">PRODUCTS</a></li>
+            <li><a href="">HOME</a></li>
+       </ul>
 
     </nav>
+    
 </body>
 
 </html>

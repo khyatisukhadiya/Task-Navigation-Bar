@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(220deg 11.11% 94.71%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.subtitle{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    /* display: flex; */
+}
+
+.subtitle li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 11px;
+}
+
+
+hr{
+    width: 90%;
+    margin-left: 60px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.icons{
+    display: flex;
+    float: left;
+}
+
+
+nav{
+    background: #0082e6;
+    height: 200px;
+    width: 100%;
+}
+
+/* nav ul{ */
+    /* float: right;
+    margin-right: 20px; */
+/* } */
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin : 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.ulclass{
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    width: 190px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.btn1 input{
+    margin: auto;
+    padding-left: 3px;
+    border: none;
+    border-radius: 30px ;
+    width: 165px;
+    height: 25px;
+}
+
+/* .btn{
+    font-size: 15px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    width: 190px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.btn input{
+    margin: auto;
+    padding-left: 3px;
+    border: none;
+    border-radius: 30px ;
+    width: 165px;
+    height: 25px;
+} */
