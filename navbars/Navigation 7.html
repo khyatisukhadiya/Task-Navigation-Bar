@@ -15,12 +15,13 @@
       body {
          background-color: hsl(220deg 11.11% 94.71%);
          font-family: 'Poppins', sans-serif;
-         font-size: 14px;
+         /* font-size: 12px; */
+        font-weight: bold;
       }
 
       .main {
          background-color: white;
-         max-width: 1200px;
+         max-width: 1600px;
          margin: auto;
          margin-top: 20px;
          height: 160px;
@@ -46,14 +47,14 @@
       hr {
          width: 90%;
          margin-left: 60px;
-         margin-top: 35px;
+         margin-top: 25px;
       }
 
       .logo {
          display: flex;
          justify-content: center;
          /* padding-top: -10px; */
-         margin-top: -10px;
+         margin-top: -30px;
          margin-right: 190px;
       }
 
@@ -92,12 +93,13 @@
       .ulclass {
          display: flex;
          justify-content: center;
+         /* font-size: 12px; */
       }
 
       .btn1 {
          position: absolute;
          top: 50px;
-         right: 240px;
+         right: 150px;
          font-size: 15px;
          border: 1px solid black;
          border-radius: 30px;
@@ -118,14 +120,14 @@
       }
 
       .btn {
-         font-size: 15px;
+         font-size: 14px;
          float: right;
          border: 2px solid black;
          border-radius: 30px;
          background-color: white;
          width: 190px;
          height: 30px;
-         margin-top: 25px;
+         /* margin-top: 20px; */
      /* background-position: 155px 5px;  */
       }
 
@@ -136,7 +138,28 @@
          border-radius: 30px;
          width: 165px;
          height: 20px;
+         /* margin-top: 10px; */
       }
+      /* img {
+         margin-top: 5px;
+      } */
+      input[type=text] {
+                
+                box-sizing: border-box;
+                border: 1px solid;
+                border-radius: 40px;
+                background-color: white; 
+                background: url("./search_FILL0_wght400_GRAD0_opsz48.png");
+                background-size: 25px;
+                margin-top: -15px;
+                background-position: 155px 5px; 
+                background-repeat: no-repeat;
+                padding: 10px 20px;
+                font-size: 12px;
+                margin-right: 200px;
+                
+               
+         }
    </style>
 </head>
 
@@ -170,24 +193,21 @@
                </li>
             </div>
          </section>
-               <li>
-                  <div class="btn1">
-                     <input type="text" placeholder="I'm searching for..."><img
-                     src="./search_FILL0_wght400_GRAD0_opsz48.png" width="20px" height="20px">
-                  </div>
-               </li>
+         <li style="margin-left: 1200px;">
+            <input type="text" placeholder="I'm searching for...">
+    </li>
       </div>
       <label class="logo">
          <img src="./logo.png" alt="logo" width="180px" height="35px">
       </label>
       <hr>
       <ul class="ulclass">
-         <li><a href="#">HOME</a></li>
-         <li><a href="#"> PRODUCTS</a></li>
-         <li><a href="#">ABOUT US</a></li>
-         <li><a href="#">PRICING</a></li>
-         <li><a href="#">BLOG</a></li>
-         <li><a href="#">CONTACT</a></li>
+         <li><a href="#" style="font-size: 12px;">HOME</a></li>
+         <li><a href="#"style="font-size: 12px;"> PRODUCTS</a></li>
+         <li><a href="#" style="font-size: 12px;">ABOUT US</a></li>
+         <li><a href="#" style="font-size: 12px;">PRICING</a></li>
+         <li><a href="#" style="font-size: 12px;">BLOG</a></li>
+         <li><a href="#" style="font-size: 12px;">CONTACT</a></li>
       </ul>
    </nav>
 </body>
