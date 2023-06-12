@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS5 Nvas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+   <div class="container mt-3">
+    <ul class="nav justify-content-center nav-tabs">
+        <li class="nav-item"><a href="#" class="nav-link active">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link1</a></li>
+        <li class="nav-item"><a href="#" class="nav-link disabled">link2</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+      </ul><br><br>
+
+      <ul class="nav justify-content-end nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link ">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">link1</a></li>
+        <li class="nav-item"><a href="#" class="nav-link disabled">link2</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+      </ul><br><br>
+
+      <ul class="nav justify-content-end nav-tabs">
+        <li class="nav-item"><a href="#" class="nav-link ">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">link1</a></li>
+        <li class="nav-item"><a href="#" class="nav-link disabled">link2</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+      </ul><br><br>
+
+      <ul class="nav nav-pills nav-justified">
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">link1</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+          </li>
+        <li class="nav-item"><a href="#" class="nav-link disabled">link2</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+      </ul>
+   </div><br><br>
+
+   <div class="container mt-3">
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item"><a href="#home" class="nav-link active" data-bs-toggle="tab">home</a></li>
+        <li class="nav-item"><a href="#home1" class="nav-link" data-bs-toggle="tab">home1</a></li>
+        <li class="nav-item"><a href="#home2" class="nav-link" data-bs-toggle="tab">home2</a></li>
+    </ul>
+   </div>   
+
+   <div class="tab-content">
+      <div class="container tab-pane active" id="home">
+        <h4>Home</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="container tab-pane fade" id="home1">
+        <h4>1</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="container tab-pane fade" id="home2">
+        <h4>2</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+   </div>
+</body>
+</html>
